@@ -27,15 +27,25 @@ body{
 .logo img{
     padding:0;
     width: 30%;
-    height: auto;  border: 1px solid blue;
+    height: auto;  
+    /*border: 1px solid blue;*/
     margin-left: 30%;
 }
 
 .logo {
     margin-left: 20px;
-    border: 25 px solid rgb(0, 255, 255);
+    /*border: 25 px solid rgb(0, 255, 255);*/
 }
 
+/* nav ul{
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+} */
+
+/* nav ul li{
     margin-right: 50px;
 }
 
@@ -48,17 +58,17 @@ nav ul li a{
 .nome{
     flex:20%;
     color: #F2DEC4;
-    border: 1px solid red;
+  /*  border: 1px solid red; */
     text-align: center;
     margin-right: 10%;
 }
 
 .nome h1 {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .menu{
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     flex:40%;
     text-align: left;
     padding: 20px 16px;
@@ -77,8 +87,44 @@ nav ul li a{
  border-top: crimson 2px solid;
 }
 
-/*#botao{
+#botao{
     background-color: #F2DEC4;
     padding: 10px 25px;
     color: #8C3D2B;
+    font-size: 20px;
 }
+
+p {
+    font-size: 15px;
+}
+
+.footer{
+background-color: #8C3D2B;
+display: flex;
+flex-flow: row wrap;
+}
+
+.container-footer {
+    margin-left: 32%;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-footer {
+    color: #F2DEC4;
+    text-align: center;
+}
+
+ /*   text-align: center;
+    font-size: 25px;
+}
+
+nav ul li a[href = "sobre.html"] {
+    color: #F2DEC4;
+}
+
+
+
+nav ul li a:hover{
+    color: crimson;
+} 
